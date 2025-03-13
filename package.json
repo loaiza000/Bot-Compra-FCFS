@@ -1,0 +1,30 @@
+{
+  "name": "fcfs",
+  "version": "1.0.0",
+  "description": "Script for first-come-first-serve AVAX contributions to smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "test": "node test.js",
+    "test-gas": "node test-gas.js",
+    "start": "node index.js",
+    "advanced": "node advanced.js",
+    "immediate": "node immediate.js",
+    "multiwallet": "node multiwallet.js"
+  },
+  "keywords": [
+    "avalanche",
+    "avax",
+    "blockchain",
+    "smart-contract",
+    "whitelist",
+    "fcfs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "chalk": "^4.1.2"
+  }
+}
